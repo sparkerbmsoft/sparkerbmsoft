@@ -1,4 +1,4 @@
-
+//coded by balaji Murumbe 
 self.addEventListener("fetch", event => {
   // This is a funny event listener
     
@@ -6,7 +6,7 @@ self.addEventListener("fetch", event => {
                   
 const OFFLINE_VERSION = 1;
 const CACHE_NAME = 'offline';
-const OFFLINE_URL = 'offline.html';
+const OFFLINE_URL = 'meoffline.html';
                   
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
